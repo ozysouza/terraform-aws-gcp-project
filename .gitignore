@@ -1,0 +1,13 @@
+# Exclude local Terraform state files
+*.tfstate
+*.tfstate.backup
+*.tfplan
+*.tfvars
+*.lock.hcl
+
+# Exclude the .terraform directory containing plugins and cache
+.terraform/
+
+# Exclude the access keys
+accessKey.csv
+*.json
